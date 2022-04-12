@@ -16,6 +16,8 @@
 		0B6A3B412805190D00B65D26 /* Notitas_LocasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A3B402805190D00B65D26 /* Notitas_LocasTests.swift */; };
 		0B6A3B4B2805190D00B65D26 /* Notitas_LocasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A3B4A2805190D00B65D26 /* Notitas_LocasUITests.swift */; };
 		0B6A3B4D2805190D00B65D26 /* Notitas_LocasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A3B4C2805190D00B65D26 /* Notitas_LocasUITestsLaunchTests.swift */; };
+		0B6A3B5A2805221100B65D26 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A3B592805221100B65D26 /* Note.swift */; };
+		0B6A3B5C280523D200B65D26 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A3B5B280523D200B65D26 /* NoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0B6A3B462805190D00B65D26 /* Notitas LocasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notitas LocasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6A3B4A2805190D00B65D26 /* Notitas_LocasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notitas_LocasUITests.swift; sourceTree = "<group>"; };
 		0B6A3B4C2805190D00B65D26 /* Notitas_LocasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notitas_LocasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B6A3B592805221100B65D26 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		0B6A3B5B280523D200B65D26 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				0B6A3B292805190900B65D26 /* AppDelegate.swift */,
 				0B6A3B2B2805190900B65D26 /* SceneDelegate.swift */,
 				0B6A3B2D2805190900B65D26 /* ViewController.swift */,
+				0B6A3B5B280523D200B65D26 /* NoteDetailViewController.swift */,
+				0B6A3B592805221100B65D26 /* Note.swift */,
 				0B6A3B2F2805190900B65D26 /* Main.storyboard */,
 				0B6A3B322805190D00B65D26 /* Assets.xcassets */,
 				0B6A3B342805190D00B65D26 /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6A3B2E2805190900B65D26 /* ViewController.swift in Sources */,
+				0B6A3B5A2805221100B65D26 /* Note.swift in Sources */,
+				0B6A3B5C280523D200B65D26 /* NoteDetailViewController.swift in Sources */,
 				0B6A3B2A2805190900B65D26 /* AppDelegate.swift in Sources */,
 				0B6A3B2C2805190900B65D26 /* SceneDelegate.swift in Sources */,
 			);
